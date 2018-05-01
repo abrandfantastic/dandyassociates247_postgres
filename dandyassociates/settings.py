@@ -39,7 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'dandyassociates',
-    'django_heroku',
+    #'django_heroku',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -115,4 +115,4 @@ STATICFILES_DIRS = (
 )
 
 #Activate Django-Heroku
-django_heroku.settings(locals())
+#django_heroku.settings(locals())
